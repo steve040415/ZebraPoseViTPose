@@ -1,6 +1,6 @@
 ## ZebraPose fork of ViTPose
 
-The [project website](https://https://zebrapose.is.tue.mpg.de/) contains all the data and additional information.
+The [project website](https://zebrapose.is.tue.mpg.de/) contains all the data and additional information.
 
 You can find all the modified files in ZebraPose folder.
 Those include:
