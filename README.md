@@ -19,27 +19,3 @@ By using this code you agree to the [license terms](https://zebrapose.is.tue.mpg
 
 ### Citation
 If you use this software, please cite 
-
-```
-@INPROCEEDINGS{10256293,
-  author={Bonetto, Elia and Ahmad, Aamir},
-  booktitle={2023 European Conference on Mobile Robots (ECMR)}, 
-  title={Synthetic Data-Based Detection of Zebras in Drone Imagery}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-8},
-  doi={10.1109/ECMR59166.2023.10256293}}
-```
-
-```
-@misc{bonetto2023grade,
-            doi = {10.48550/ARXIV.2303.04466},
-            url = {https://arxiv.org/abs/2303.04466},
-            author = {Bonetto, Elia and Xu, Chenghao and Ahmad, Aamir},
-            title = {GRADE: Generating Realistic Animated Dynamic Environments for Robotics Research},
-            publisher = {arXiv},
-            year = {2023},
-            copyright = {arXiv.org perpetual, non-exclusive license}
-}
-```

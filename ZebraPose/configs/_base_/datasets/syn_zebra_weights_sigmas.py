@@ -1,12 +1,5 @@
 dataset_info = dict(
     dataset_name='syn_zebras',
-    paper_info=dict(
-        author='Elia Bonetto',
-        title='Synthetic Zebra Dataset for 2D Animal Pose Estimation',
-        container='arXiv',
-        year='2023',
-        homepage='https://github.com/eliabntt/GRADE-RR',
-    ),
     keypoint_info={
         0:
         dict(
