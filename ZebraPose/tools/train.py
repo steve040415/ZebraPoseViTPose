@@ -13,7 +13,7 @@ from mmcv.runner import get_dist_info, init_dist, set_random_seed
 from mmcv.utils import get_git_hash
 
 import sys
-sys.path.insert(0, '/home/mack/ZebraPoseViTPose/ZebraPose')
+sys.path.insert(0, '../')
 
 
 from mmpose import __version__
