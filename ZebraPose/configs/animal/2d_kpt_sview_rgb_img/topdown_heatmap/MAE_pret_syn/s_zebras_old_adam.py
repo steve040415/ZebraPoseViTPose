@@ -148,7 +148,7 @@ val_pipeline = [
 
 test_pipeline = val_pipeline
 
-data_root = 'data/syn_zebras'
+data_root = '/content/drive/MyDrive/SC'
 data = dict(
     samples_per_gpu=64,
     workers_per_gpu=8,
@@ -156,21 +156,21 @@ data = dict(
     test_dataloader=dict(samples_per_gpu=64),
     train=dict(
         type='AnimalAP10KDataset',
-        ann_file=f'{data_root}/train/train_gt30.json',
+        ann_file=f'{data_root}/train/train.json',
         img_prefix=f'{data_root}/train/images/',
         data_cfg=data_cfg,
         pipeline=train_pipeline,
         dataset_info={{_base_.dataset_info}}),
     val=dict(
         type='AnimalAP10KDataset',
-        ann_file=f'{data_root}/valid/valid_gt30.json',
+        ann_file=f'{data_root}/valid/valid.json',
         img_prefix=f'{data_root}/valid/images/',
         data_cfg=data_cfg,
         pipeline=val_pipeline,
         dataset_info={{_base_.dataset_info}}),
     test=dict(
         type='AnimalAP10KDataset',
-        ann_file=f'{data_root}/valid/valid_gt30.json',
+        ann_file=f'{data_root}/valid/valid.json',
         img_prefix=f'{data_root}/valid/images/',
         data_cfg=data_cfg,
         pipeline=val_pipeline,
